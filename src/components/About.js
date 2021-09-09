@@ -55,7 +55,7 @@ export default function About() {
           >
             <div className="accordion-body" style={myStyle}>
               Purpose of the app is to simplify user's task to modify the text
-              with different utilities(functionalities) as mentioned in the app itself. Try using
+              with different utilities as mentioned in the app itself. Try using
               it, its damn easy.
             </div>
           </div>
