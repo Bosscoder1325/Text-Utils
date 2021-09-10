@@ -53,7 +53,7 @@ export default function TextForm(props) {
     if (text.length === 0) {
       return 0;
     }
-    return text.split(" ").length;
+    return text.split(" ").filter((element) => {return element.length !== 0}).length;
   };
 
   return (
